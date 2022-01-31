@@ -20,9 +20,10 @@ ActiveStorage.start()
 // import {} from 'jquery-ujs'
 // import "bootstrap"
 
-// import "main"
-// require("main")
+require("js/main")
 require("stylesheets/application.scss")
+// require("stylesheets/css/main.css")
+// require("stylesheets/css/variables.css")
 
 // require("assets/js/main.js")
 // require("assets/vendor/bootstrap/js/bootstrap.bundle.min.js")

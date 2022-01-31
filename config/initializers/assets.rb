@@ -13,7 +13,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.paths += [
-  Rails.root.join('vendor').to_s
+  Rails.root.join('vendor/HeroBiz').to_s
 ]
 
 Rails.application.config.assets.precompile += %w(*.gif *.jpeg *.jpg  *.png *.svg *.woff2 *.woff *.ttf *.eot)
