@@ -20,20 +20,34 @@ ActiveStorage.start()
 // import {} from 'jquery-ujs'
 // import "bootstrap"
 
-require("js/main")
 require("stylesheets/application.scss")
-// require("stylesheets/css/main.css")
-// require("stylesheets/css/variables.css")
+require("vendor/bootstrap/css/bootstrap.min")
+require("vendor/bootstrap-icons/bootstrap-icons")
+// require("vendor/aos/aos")
+// require("vendor/glightbox/css/glightbox.min")
+// require("vendor/swiper/swiper-bundle.min")
+require("css/main")
+require("css/variables")
 
-// require("assets/js/main.js")
-// require("assets/vendor/bootstrap/js/bootstrap.bundle.min.js")
-// require ("HeroBiz/assets/vendor/aos/aos.js")
-// require ("HeroBiz/assets/vendor/glightbox/js/glightbox.min.js")
-// require ("HeroBiz/assets/vendor/isotope-layout/isotope.pkgd.min.js")
-// require ("HeroBiz/assets/vendor/swiper/swiper-bundle.min.js")
-// require ("HeroBiz/assets/vendor/php-email-form/validate.js")
-//   // <!-- Template Main JS File -->
-// require ("HeroBiz/assets/js/main.js")
+// Vendor JS Files 
+require("vendor/bootstrap/js/bootstrap.bundle.min")
+// require ("vendor/aos/aos")
+// require ("vendor/glightbox/js/glightbox.min")
+// require ("vendor/isotope-layout/isotope.pkgd.min")
+// require ("vendor/swiper/swiper-bundle.min")
+// require ("vendor/php-email-form/validate")
+  // <!-- Template Main JS File -->
 
+require("js/main")
 
+// import AOS from 'vendor/aos/aos'
+// window.AOS = AOS
+
+// import GLightbox from 'vendor/glightbox/js/glightbox.min'
+// window.GLightbox = GLightbox
+
+// import Isotope from 'vendor/isotope-layout/isotope.pkgd.min'
+// window.Isotope = Isotope
+// import Swiper from 'vendor/swiper/swiper-bundle.min'
+// window.Swiper = Swiper
 
